@@ -358,6 +358,9 @@ function ProductList({ onHomeClick }) {
                                         strokeWidth="2"
                                     />
                                 </svg>
+                                <span className="cart-count">
+    {calculateTotalQuantity()}
+</span>
                             </h1>
                         </a>
                     </div>
